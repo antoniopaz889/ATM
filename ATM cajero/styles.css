@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #001c4a; /* Cambia este valor al tono de azul que prefieras */
+    color: white; /* Cambia este valor al color de texto que prefieras */
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #00664d;
+}
+
+select, input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #001c4a;
+}
+
+#actions {
+    margin-top: 20px;
+}
+
+#result {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
